@@ -6,46 +6,46 @@ public class Qest1_13 {
 		// TODO 自動生成されたメソッド・スタブ
 
 		//問題1
-		byte b; //バイト型
-		short s; //短整数型
-		int i; //整数型
-		long l; //長整数型
-		float f; //単精度浮動小数点数型
-		double d; //倍精度浮動小数点数型
-		char c; //文字型
-		String st; //文字列型
-		boolean bo; //ブーリアン型
+		byte myByte; //バイト型
+		short myShort; //短整数型
+		int myInt; //整数型
+		long myLong; //長整数型
+		float myFloat; //単精度浮動小数点数型
+		double myDouble; //倍精度浮動小数点数型
+		char myChar; //文字型
+		String myString; //文字列型
+		boolean myBoolean; //ブーリアン型
 
 		//問題2 初期値
-		byte b1 = 0;
-		short s1 = 0;
-		int i1 = 0;
-		long l1 = 0L;
-		float f1 = 0.0f;
-		double d1 = 0.0;
-		char c1 = '\u0000';
-		String st1 = null;
-		boolean bo1 = false;
+		myByte = 0;
+		myShort = 0;
+		myInt = 0;
+		myLong = 0L;
+		myFloat = 0.0f;
+		myDouble = 0.0;
+		myChar = '\u0000';
+		myString = null;
+		myBoolean = false;
 
 		//問題3
-		byte myByte = 20;
-		short myShort = 10;
-		int myInt = 11110;
-		long myLong = 10000000000L;
-		float myFloat = 3.14f;
-		double myDouble = 10.5;
-		char myChar = 'a';
-		String myString = "ハロー";
-		boolean isjavaFun = true;
+		myByte = 20;
+		myShort = 10;
+		myInt = 11110;
+		myLong = 10000000000L;
+		myFloat = 3.14f;
+		myDouble = 10.5;
+		myChar = 'a';
+		myString = "ハロー";
+		myBoolean = true;
 
 		//問題4
 		System.out.println("11110" + "\t\t" + myInt);
 		// 11110
 		System.out.println("20" + "\t\t" + myByte);
 		// 20
-		System.out.println(myChar + " " + myString + " " + isjavaFun);
+		System.out.println(myChar + " " + myString + " " + myBoolean);
 		// a ハロー true
-		System.out.println("1" + "1" + "1" + "3" + "0");
+		System.out.println(myInt + myByte);
 		// 11130
 		System.out.println(myLong * 1);
 		// 10000000000
